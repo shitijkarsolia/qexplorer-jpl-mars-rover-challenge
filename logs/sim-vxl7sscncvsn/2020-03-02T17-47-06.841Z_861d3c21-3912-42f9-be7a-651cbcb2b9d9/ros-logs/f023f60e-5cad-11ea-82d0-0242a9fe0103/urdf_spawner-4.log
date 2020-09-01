@@ -1,0 +1,36 @@
+[rospy.client][INFO] 2020-03-02 17:47:54,399: init_node, name[/urdf_spawner], pid[160]
+[xmlrpc][INFO] 2020-03-02 17:47:54,399: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-03-02 17:47:54,399: Started XML-RPC server [http://169.254.1.3:41013/]
+[rospy.init][INFO] 2020-03-02 17:47:54,399: ROS Slave URI: [http://169.254.1.3:41013/]
+[rospy.impl.masterslave][INFO] 2020-03-02 17:47:54,400: _ready: http://169.254.1.3:41013/
+[xmlrpc][INFO] 2020-03-02 17:47:54,400: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-03-02 17:47:54,400: Registering with master node http://169.254.1.3:11311/
+[rospy.init][INFO] 2020-03-02 17:47:54,500: registered with master
+[rospy.rosout][INFO] 2020-03-02 17:47:54,500: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-03-02 17:47:54,502: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-03-02 17:47:54,503: initializing /clock core topic
+[rospy.simtime][INFO] 2020-03-02 17:47:54,504: connected to core topic /clock
+[rosout][INFO] 2020-03-02 17:47:54,506: Loading model XML from ros parameter robot_description
+[rospy.internal][INFO] 2020-03-02 17:47:54,520: topic[/clock] adding connection to [http://169.254.1.3:33331/], count 0
+[rosout][INFO] 2020-03-02 17:47:54,528: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2020-03-02 17:47:54,530: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2020-03-02 17:47:54,800: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2020-03-02 17:47:55,945: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2020-03-02 17:47:55,946: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-03-02 17:47:55,949: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-03-02 17:47:55,949: topic[/clock] removing connection to http://169.254.1.3:33331/
+[rospy.internal][WARNING] 2020-03-02 17:47:55,949: Unknown error initiating TCP/IP socket to 169.254.1.3:38541 (http://169.254.1.3:33331/): Traceback (most recent call last):
+  File "/home/robomaker/workspace/applications/simulation-application/dependencies/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/home/robomaker/workspace/applications/simulation-application/dependencies/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-03-02 17:47:55,950: Traceback (most recent call last):
+  File "/home/robomaker/workspace/applications/simulation-application/dependencies/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/home/robomaker/workspace/applications/simulation-application/dependencies/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 841, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2020-03-02 17:47:55,950: atexit

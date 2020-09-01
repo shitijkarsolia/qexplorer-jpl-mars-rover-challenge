@@ -1,0 +1,6 @@
+model_checkpoint_path: "90_Step-103056.ckpt"
+all_model_checkpoint_paths: "86_Step-98906.ckpt"
+all_model_checkpoint_paths: "87_Step-100726.ckpt"
+all_model_checkpoint_paths: "88_Step-100738.ckpt"
+all_model_checkpoint_paths: "89_Step-102563.ckpt"
+all_model_checkpoint_paths: "90_Step-103056.ckpt"

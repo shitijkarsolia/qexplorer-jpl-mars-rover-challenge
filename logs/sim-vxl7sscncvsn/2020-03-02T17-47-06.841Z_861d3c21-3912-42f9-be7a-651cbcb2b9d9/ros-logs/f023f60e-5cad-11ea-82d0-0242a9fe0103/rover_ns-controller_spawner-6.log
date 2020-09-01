@@ -1,0 +1,65 @@
+[rospy.client][INFO] 2020-03-02 17:47:53,634: init_node, name[/rover_ns/controller_spawner], pid[166]
+[xmlrpc][INFO] 2020-03-02 17:47:53,634: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-03-02 17:47:53,635: Started XML-RPC server [http://169.254.1.3:34039/]
+[rospy.init][INFO] 2020-03-02 17:47:53,635: ROS Slave URI: [http://169.254.1.3:34039/]
+[rospy.impl.masterslave][INFO] 2020-03-02 17:47:53,635: _ready: http://169.254.1.3:34039/
+[xmlrpc][INFO] 2020-03-02 17:47:53,636: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-03-02 17:47:53,636: Registering with master node http://169.254.1.3:11311/
+[rospy.init][INFO] 2020-03-02 17:47:53,735: registered with master
+[rospy.rosout][INFO] 2020-03-02 17:47:53,735: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-03-02 17:47:53,738: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-03-02 17:47:53,739: initializing /clock core topic
+[rospy.simtime][INFO] 2020-03-02 17:47:53,743: connected to core topic /clock
+[rosout][INFO] 2020-03-02 17:47:53,748: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2020-03-02 17:47:53,997: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-03-02 17:47:54,415: topic[/clock] adding connection to [http://169.254.1.3:33331/], count 0
+[rosout][INFO] 2020-03-02 17:47:57,063: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2020-03-02 17:47:57,065: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2020-03-02 17:47:57,068: Loading controller: body_rocker_left_controller
+[rosout][INFO] 2020-03-02 17:47:57,094: Loading controller: body_rocker_right_controller
+[rosout][INFO] 2020-03-02 17:47:57,120: Loading controller: corner_lf_wheel_lf_controller
+[rosout][INFO] 2020-03-02 17:47:57,146: Loading controller: bogie_left_wheel_lm_controller
+[rosout][INFO] 2020-03-02 17:47:57,172: Loading controller: corner_lb_wheel_lb_controller
+[rosout][INFO] 2020-03-02 17:47:57,198: Loading controller: corner_rb_wheel_rb_controller
+[rosout][INFO] 2020-03-02 17:47:57,244: Loading controller: bogie_right_wheel_rm_controller
+[rosout][INFO] 2020-03-02 17:47:57,280: Loading controller: corner_rf_wheel_rf_controller
+[rosout][INFO] 2020-03-02 17:47:57,305: Loading controller: rocker_left_bogie_left_controller
+[rosout][INFO] 2020-03-02 17:47:57,331: Loading controller: rocker_right_bogie_right_controller
+[rosout][INFO] 2020-03-02 17:47:57,356: Loading controller: bogie_left_corner_lf_controller
+[rosout][INFO] 2020-03-02 17:47:57,382: Loading controller: rocker_left_corner_lb_controller
+[rosout][INFO] 2020-03-02 17:47:57,408: Loading controller: rocker_right_corner_rb_controller
+[rosout][INFO] 2020-03-02 17:47:57,434: Loading controller: bogie_right_corner_rf_controller
+[rosout][INFO] 2020-03-02 17:47:57,460: Loading controller: joint_state_controller
+[rosout][INFO] 2020-03-02 17:47:57,486: Controller Spawner: Loaded controllers: body_rocker_left_controller, body_rocker_right_controller, corner_lf_wheel_lf_controller, bogie_left_wheel_lm_controller, corner_lb_wheel_lb_controller, corner_rb_wheel_rb_controller, bogie_right_wheel_rm_controller, corner_rf_wheel_rf_controller, rocker_left_bogie_left_controller, rocker_right_bogie_right_controller, bogie_left_corner_lf_controller, rocker_left_corner_lb_controller, rocker_right_corner_rb_controller, bogie_right_corner_rf_controller, joint_state_controller
+[rosout][INFO] 2020-03-02 17:47:57,512: Started controllers: body_rocker_left_controller, body_rocker_right_controller, corner_lf_wheel_lf_controller, bogie_left_wheel_lm_controller, corner_lb_wheel_lb_controller, corner_rb_wheel_rb_controller, bogie_right_wheel_rm_controller, corner_rf_wheel_rf_controller, rocker_left_bogie_left_controller, rocker_right_bogie_right_controller, bogie_left_corner_lf_controller, rocker_left_corner_lb_controller, rocker_right_corner_rb_controller, bogie_right_corner_rf_controller, joint_state_controller
+[rospy.core][INFO] 2020-03-02 18:39:49,863: signal_shutdown [signal-2]
+[rosout][INFO] 2020-03-02 18:39:49,864: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2020-03-02 18:39:49,866: Stopping all controllers...
+[rosout][INFO] 2020-03-02 18:39:49,872: Unloading all loaded controllers...
+[rosout][INFO] 2020-03-02 18:39:49,873: Trying to unload joint_state_controller
+[rosout][INFO] 2020-03-02 18:39:49,881: Succeeded in unloading joint_state_controller
+[rosout][INFO] 2020-03-02 18:39:49,882: Trying to unload bogie_right_corner_rf_controller
+[rosout][INFO] 2020-03-02 18:39:49,894: Succeeded in unloading bogie_right_corner_rf_controller
+[rosout][INFO] 2020-03-02 18:39:49,895: Trying to unload rocker_right_corner_rb_controller
+[rosout][INFO] 2020-03-02 18:39:49,905: Succeeded in unloading rocker_right_corner_rb_controller
+[rosout][INFO] 2020-03-02 18:39:49,906: Trying to unload rocker_left_corner_lb_controller
+[rosout][INFO] 2020-03-02 18:39:49,918: Succeeded in unloading rocker_left_corner_lb_controller
+[rosout][INFO] 2020-03-02 18:39:49,919: Trying to unload bogie_left_corner_lf_controller
+[rosout][INFO] 2020-03-02 18:39:49,930: Succeeded in unloading bogie_left_corner_lf_controller
+[rosout][INFO] 2020-03-02 18:39:49,931: Trying to unload rocker_right_bogie_right_controller
+[rosout][INFO] 2020-03-02 18:39:49,943: Succeeded in unloading rocker_right_bogie_right_controller
+[rosout][INFO] 2020-03-02 18:39:49,944: Trying to unload rocker_left_bogie_left_controller
+[rosout][INFO] 2020-03-02 18:39:49,953: Succeeded in unloading rocker_left_bogie_left_controller
+[rosout][INFO] 2020-03-02 18:39:49,954: Trying to unload corner_rf_wheel_rf_controller
+[rosout][INFO] 2020-03-02 18:39:49,962: Succeeded in unloading corner_rf_wheel_rf_controller
+[rosout][INFO] 2020-03-02 18:39:49,963: Trying to unload bogie_right_wheel_rm_controller
+[rosout][INFO] 2020-03-02 18:39:49,968: Succeeded in unloading bogie_right_wheel_rm_controller
+[rosout][INFO] 2020-03-02 18:39:49,970: Trying to unload corner_rb_wheel_rb_controller
+[rosout][INFO] 2020-03-02 18:39:49,974: Succeeded in unloading corner_rb_wheel_rb_controller
+[rosout][INFO] 2020-03-02 18:39:49,975: Trying to unload corner_lb_wheel_lb_controller
+[rosout][INFO] 2020-03-02 18:39:49,981: Succeeded in unloading corner_lb_wheel_lb_controller
+[rosout][INFO] 2020-03-02 18:39:49,982: Trying to unload bogie_left_wheel_lm_controller
+[rosout][INFO] 2020-03-02 18:39:49,987: Succeeded in unloading bogie_left_wheel_lm_controller
+[rosout][INFO] 2020-03-02 18:39:49,988: Trying to unload corner_lf_wheel_lf_controller
+[rosout][INFO] 2020-03-02 18:39:49,997: Succeeded in unloading corner_lf_wheel_lf_controller
+[rosout][INFO] 2020-03-02 18:39:49,998: Trying to unload body_rocker_right_controller
